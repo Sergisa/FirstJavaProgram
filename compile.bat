@@ -1,4 +1,4 @@
 javac -d bin ./src/*
-java -classpath ./bin Main
-
+jar -cmf manifest.mf myApplication.jar -C bin .
+java -jar myApplication.jar
 pause
