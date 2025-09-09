@@ -1,9 +1,9 @@
 plugins {
-    id('java')
+    id 'application'
 }
-sourceSets.main.java.srcDirs = ['/']
-jar {
-    manifest {
-        attributes 'Main-Class': 'Main'
-    }
+apply plugin: "java"
+sourceSets.main.java.srcDirs = ['/src']
+application {
+    mainClass = 'main.java.Main'
 }
+
