@@ -1,4 +1,1 @@
-javac Main.java
-java Main
-
-pause
+gradlew jar --console=verbose&&gradlew run --console=verbose
