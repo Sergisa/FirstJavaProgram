@@ -1,9 +1,9 @@
 plugins {
     id 'application'
+    id 'java'
 }
-apply plugin: "java"
-sourceSets.main.java.srcDirs = ['/src']
+sourceSets.main.java.srcDirs = ['/src/main/java']
 application {
-    mainClass = 'main.java.Main'
+    mainClass = 'com.sergisa.Main'
 }
 
