@@ -2,7 +2,7 @@
 ## Минимальный набор что бы заработало:
 
 - gradlew.bat **(СКАЧИВАЕМ)**
-- src/<package hierarchy> **(СОЗДАЁМ РУЧКАМИ: это наш код)**
+- src/main/java/<package hierarchy> **(СОЗДАЁМ РУЧКАМИ: это наш код)**
 - gradle/wrapper/ **(СКАЧИВАЕМ)**
   - ./gradle-wrapper.jar
   - ./gradle-wrapper.properties
